@@ -315,6 +315,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librmnetctl
 
+# Ramdisk
+PRODUCT_PACKAGES +=\
+    init.baseband.sh
+	
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
