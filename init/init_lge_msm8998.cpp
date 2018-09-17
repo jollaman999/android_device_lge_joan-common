@@ -95,6 +95,11 @@ void init_target_properties()
         return;
     }
 
+    if(device.find("930DS") != std::string::npos)
+    {
+        property_set("persist.radio.multisim.config", "dsds");
+    }
+
     property_set("ro.product.model", device);
     property_set("ro.vendor.product.model", device);
 }
