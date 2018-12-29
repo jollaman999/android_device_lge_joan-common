@@ -205,6 +205,9 @@ TW_DEFAULT_BRIGHTNESS := 158
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INCLUDE_NTFS_3G := true
 
+# recovery - Use lzma for recovery to reduce ramdisk size
+LZMA_RAMDISK_TARGETS := recovery
+
 # We can use the factory reset button combo to enter recovery safely
 TW_IGNORE_MISC_WIPE_DATA := true
 
