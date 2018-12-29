@@ -1,17 +1,12 @@
 [
   {
-    "repository": "jollaman999/jolla-kernel_joan",
-    "target_path": "kernel/lge/msm8998",
-    "branch": "Oreo"
+    "repository": "android_device_lge_common",
+    "target_path": "device/lge/common"
   },
   {
     "remote": "github",
-    "repository": "SGCMarkus/proprietary_vendor_lge",
-    "target_path": "vendor/lge",
-    "branch": "lineage-16.0"
-  },
-  {
-    "repository": "android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings",
+    "repository": "jollaman999/jolla-kernel_joan",
+    "target_path": "kernel/lge/msm8998",
+    "branch": "Oreo"
   }
 ]
