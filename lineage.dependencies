@@ -1,10 +1,14 @@
 [
   {
-    "repository": "android_device_lge_common",
+    "remote": "github",
+    "repository": "jollaman999/android_device_lge_common",
     "target_path": "device/lge/common"
+    "branch": "lineage-15.1"
   },
   {
-    "repository": "android_kernel_lge_msm8998",
-    "target_path": "kernel/lge/msm8998"
+    "remote": "github",
+    "repository": "jollaman999/jolla-kernel_joan",
+    "target_path": "kernel/lge/msm8998",
+    "branch": "Oreo"
   }
 ]
